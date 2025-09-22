@@ -1,0 +1,114 @@
+:root {
+    --text-color: #f0f0f0;
+    --star-color: #fff;
+    --background-color: #0d0d21;
+    --button-bg: #4929eb;
+    --button-hover-bg: #6c5ce7;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    overflow: hidden;
+}
+
+#starrySky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.intro-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 10;
+    transition: opacity 1s ease-in-out;
+}
+
+.intro-message h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.intro-message p {
+    font-size: 1.2em;
+}
+
+#startButton {
+    padding: 15px 30px;
+    font-size: 1.1em;
+    background-color: var(--button-bg);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#startButton:hover {
+    background-color: var(--button-hover-bg);
+    transform: scale(1.05);
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.slideshow-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.slide {
+    position: absolute;
+    width: 80%;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+}
+
+.slide img {
+    max-width: 50%;
+    height: 10%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.slide p {
+    font-size: 1.3em;
+    line-height: 1.5;
+    font-style: italic;
+}
