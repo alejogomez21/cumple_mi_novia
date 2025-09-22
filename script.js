@@ -7,31 +7,31 @@ document.addEventListener('DOMContentLoaded', () => {
     const ctx = canvas.getContext('2d');
     const slides = [
         {
-            image: 'img/foto1.jpg', // Reemplaza con tus fotos
+            image: 'img/foto1.jpeg', // Reemplaza con tus fotos
             message: "La mujer de mi vida está cumpliendo 20 años el dia de hoy, te me creciste mi peque."
         },
         {
-            image: 'img/foto2.jpg', // Reemplaza con tus fotos
+            image: 'img/foto2.jpeg', // Reemplaza con tus fotos
             message: "Se que te puede preocupar esta edad, pero a esta edad creeme que el 99% de las personas no saben ni para que vinieron al mundo, y te lo digo por experiencia amor."
         },
         {
-            image: 'img/foto3.jpg', // Reemplaza con tus fotos
+            image: 'img/foto3.jpeg', // Reemplaza con tus fotos
             message: "pero me he dado cuenta que nosotros vinimos al mundo es a disfrutar, no a estresarnos pensando en como salir adelante o para que eres buena, o qué deberias estudiar, solo vivir pequeñas cosas que te hacen felíz, y de ahí creeme que sale todo lo demás."
         },
         {
-            image: 'img/foto4.jpg', // Reemplaza con tus fotos
+            image: 'img/foto4.jpeg', // Reemplaza con tus fotos
             message: "Quiero que disfrutes estos años de aqui en adelante amor, que VIVAS realmente, que hagas cosas que realmente te gusten, por mas minimas que sean, serán el impulso que necesitas para que tu vida sea mas hermosa de lo que ya es."
         },
         {
-            image: 'img/foto5.jpg', // Reemplaza con tus fotos
+            image: 'img/foto5.jpeg', // Reemplaza con tus fotos
             message: "Pero ojito que no vas a estar sola amor, asi como he estado estos 3 años a tu lado, seguiré estandolo para apoyarte en lo que sea que quieras hacer que te haga feliz mi vida, porque tu felicidad es mi felicidad."
         },
         {
-            image: 'img/foto6.jpg', // Reemplaza con tus fotos
+            image: 'img/foto6.jpeg', // Reemplaza con tus fotos
             message: "Espero tomes esta nueva estapa con un positivismo tremendo, pensando en todo lo bueno q haz vivido y todo lo que vivirás, en la vida siempre hay bajones amor, pero creeme que lo que pasa más rapido en la vida son esos momentos, los buenos momentos son los que siempre se quedan en la mente y se viven con mas ganas, necesito es que estés pendiente en esos."
         },
         {
-            image: 'img/foto7.jpg', // Reemplaza con tus fotos
+            image: 'img/foto7.jpeg', // Reemplaza con tus fotos
             message: "Porque al final de todo esto no nos llevaremos nada amor, entonces pa q preocuparnos por cosas malas, solo disfruta las cosas buenas que te da la vida y entiende que la existencia es un momento, la eternidad es el comienzo de recordar todo lo que se vivió, y debes llevarte muchos de esos buenos momentos para recordar que mas que una vida buena, tuviste una vida felíz, y que nunca te faltó disfrutar un momento por mas minimo que haya sido."
         },
     ];
